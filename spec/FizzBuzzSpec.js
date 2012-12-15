@@ -25,4 +25,25 @@ describe("Kata Fizz Buzz",function(){
 			expect(resultado).toBe("Fizz");
 		}
 	);
+
+	it("5 devuelve Buzz",
+		function(){
+			var resultado = fizzBuzz.calcula(5);
+			expect(resultado).toBe("Buzz");
+		}
+	);
+	it("5 devuelve Buzz",
+		function(){
+			var resultado = fizzBuzz.calcula(5);
+			expect(resultado).toBe("Buzz");
+		}
+	);
+
+	it("15 devuelve FizzBuzz",
+		function(){
+			var resultado = fizzBuzz.calcula(15);
+			expect(resultado).toBe("FizzBuzz");
+		}
+	);
+
 });
